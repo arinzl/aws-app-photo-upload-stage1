@@ -1,0 +1,48 @@
+
+# -----------------------------
+# Terraform
+# -----------------------------
+**/.terraform/
+**/*.tfstate
+**/*.tfstate.*
+**/*.tfstate.backup
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+**/*.tfplan
+**/*.tfplan.binary
+.terraformrc
+terraform.rc
+.terraform.d/
+# -----------------------------
+# Python virtual environments
+# -----------------------------
+**/.venv/
+
+
+# -----------------------------
+# Python artifacts
+# -----------------------------
+# Byte‐code and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+Pipfile.lock
+
+# -----------------------------
+# Streamlit local config
+# -----------------------------
+**/.streamlit/
+
+# -----------------------------
+# Editor / OS files
+# -----------------------------
+# macOS
+**/.DS_Store
