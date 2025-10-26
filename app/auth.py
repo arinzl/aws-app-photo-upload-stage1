@@ -21,7 +21,7 @@ class CognitoAuth:
         self.client_id = os.getenv('COGNITO_CLIENT_ID')
         self.client_secret = os.getenv('COGNITO_CLIENT_SECRET')
         self.identity_pool_id = os.getenv('COGNITO_IDENTITY_POOL_ID')
-        self.region = os.getenv('AWS_REGION', 'us-east-1')
+        self.region = os.getenv('AWS_REGION', 'ap-southeast-6')
         self.cognito_domain = os.getenv('COGNITO_DOMAIN')
         self.redirect_uri = os.getenv('REDIRECT_URI', 'http://localhost:8501')
 
